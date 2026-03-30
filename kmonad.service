@@ -1,0 +1,12 @@
+[Unit]
+Description=Kmonad
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/skip/.local/share/kmonad/launch_kmonad.sh
+User=root
+Restart=yes
+
+[Install]
+WantedBy=multi-user.target
