@@ -1,3 +1,4 @@
+- installer docker (attention c'est pas juste `install docker`).
 - Bien placer `preamble.tex` selon `init_all_courses.py`.
 - Dossiers à ignorer à la ligne 33 de `course.py`.
 - Verifier `fr_CH-utf8`.
